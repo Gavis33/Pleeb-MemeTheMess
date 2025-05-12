@@ -15,8 +15,3 @@ yt-dlp>=2023.11.14
 
 # Other utilities
 python-dateutil>=2.8.2
-
-# To install from requirements.txt in a virtual environment:
-# pip install -r requirements.txt
-
-# .venv\Scripts\activate
