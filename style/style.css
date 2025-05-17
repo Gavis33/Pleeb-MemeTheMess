@@ -101,6 +101,35 @@ header[data-testid="stHeader"] {
   background: #ffffff;
 }
 
+.st-key-tabs-container {
+    padding: 30px;
+    background-color: #ffffff23;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stTabs .st-as div div button{
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.stTabs .st-as div div button:hover, .stTabs .st-as div div button:focus:not(:active){
+    color: #ffffff;
+    background-color: #000000;
+    border: 3px solid #ffffff;
+    transition: all 0.5s ease-in-out;
+}
+
 .st-key-main-container {
     padding: 30px;
     background-color: #000000ee;
@@ -170,6 +199,26 @@ header[data-testid="stHeader"] {
     transition: all 0.5s ease-in-out;
 }
 
+.stDownloadButton button{
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.stDownloadButton button:hover, .stDownloadButton button:focus:not(:active){
+    color: #ffffff;
+    background-color: #000000;
+    border: 3px solid #ffffff;
+    transition: all 0.5s ease-in-out;
+}
+
+
 
 .st-key-sub-container-2 .st-key-bleep-words-local div div textarea{
     background-color: #00000030;
@@ -189,21 +238,24 @@ header[data-testid="stHeader"] {
     justify-content: center;
 }
 
-.st-ce .st-b6 {
+.st-cy .st-b8 {
     background: #ffffff30;
 }
 
-.st-ce .st-b6:active{
+.st-cy .st-b8:active{
     background: #000000;
     border: 3px solid #ffffff;
 }
 
+.st-emotion-cache-seewz2 p{
+    margin-bottom: 15px;
+}
 /* .st-ce .st-dq :focus-within{
     background: #000000;
     border: 3px solid #ffffff;
 } */
 
-.st-dq, .st-do, .st-dp, .st-dn {
+.st-e0, .st-e1, .st-e2, .st-e3 {
     background: #000000;
     border: 3px solid #ffffff;
 }
