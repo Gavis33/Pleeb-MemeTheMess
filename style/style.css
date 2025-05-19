@@ -130,7 +130,7 @@ header[data-testid="stHeader"] {
     transition: all 0.5s ease-in-out;
 }
 
-.st-key-main-container {
+.st-key-main-container, .st-key-about-container {
     padding: 30px;
     background-color: #000000ee;
     border-radius: 10px;
@@ -259,6 +259,7 @@ header[data-testid="stHeader"] {
     background: #000000;
     border: 3px solid #ffffff;
 }
+
 
 @keyframes wztoh {
   from {
