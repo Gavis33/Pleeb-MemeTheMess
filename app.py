@@ -11,7 +11,11 @@ import base64
 import io
 import os
 
-st.set_page_config(page_title="Pleeb - Meme the Mess")
+st.set_page_config(
+    page_title="Pleeb - Meme the Mess",
+    page_icon="assets/logo_as_of_now.jpg"
+)
+
 
 # Load CSS
 def load_css(file_path):
