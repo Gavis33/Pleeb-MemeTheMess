@@ -40,9 +40,10 @@ st.markdown(f"""
         <img src="data:image/jpg;base64,{logo_base64}" alt="Pleeb Logo">
     </div>
     <div class="nav-links">
-        <a class="befaft smooth" href="https://github.com/yourusername" target="_blank">GitHub</a>
-        <a class="befaft smooth" href="https://www.instagram.com/yourprofile/" target="_blank">Instagram</a>
-        <a class="befaft smooth" href="mailto:you@example.com">Contact</a>
+        <a class="befaft smooth" href="https://github.com/Gavis33" target="_blank">GitHub 1</a>
+        <a class="befaft smooth" href="https://github.com/Gagan-poojari" target="_blank">GitHub 2</a>
+        <a class="befaft smooth" href="https://www.linkedin.com/in/gagan-poojari-840744319/" target="_blank">Linked In</a>
+        # <a class="befaft smooth" href="mailto:you@example.com">LinkedIn</a>
     </div>
 </div>
 """, unsafe_allow_html=True)
